@@ -8,14 +8,11 @@ import { Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <div className='row'>
-        <div className='col-6'>
-          <Membership />            
-        </div>
-        <div className='col-6'>
+      
+          <Membership />  
+          <div className='mt-6'></div>          
           <Payment />
-        </div>
-      </div>
+      
       
     </div>
   );

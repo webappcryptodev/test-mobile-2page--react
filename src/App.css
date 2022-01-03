@@ -37,12 +37,7 @@
   }
 }
 
-.row {
-  display: flex;
-  width: 100%;  
+.mt-6 {
+  margin-top: 50px;
 }
 
-.col-6 {
-  width: 50%;
-  text-align: center;
-}
