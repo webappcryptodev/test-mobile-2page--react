@@ -8,13 +8,15 @@ import { Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      {/* <Navbar />
-      <Routes>
-        <Route path={"/member"} element={<Membership />} />
-        <Route path={"/payment"} element={<Payment />} />
-      </Routes> */}
-      <Membership />
-      <Payment />
+      <div className='row'>
+        <div className='col-6'>
+          <Membership />            
+        </div>
+        <div className='col-6'>
+          <Payment />
+        </div>
+      </div>
+      
     </div>
   );
 }
